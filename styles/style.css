@@ -161,10 +161,20 @@ button{
 background: linear-gradient(90.00deg, rgb(255, 140, 48),rgb(159, 71, 0) 100%);
 }
 
+.footer_content{
+    display: flex;
+   
+}
+
 .footer_title{
     font: 700 clamp(14px, 3vw, 18px) / 20px Comfortaa;
     display: flex;
     align-items: center;
+}
+
+.footer_img{
+    width: 40px;
+    height: 30px;
 }
 
 

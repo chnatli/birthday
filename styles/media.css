@@ -78,10 +78,6 @@
     .bg_btn{
       padding: 15px 40px;
     }
-
-    .footer_left{
-      gap: 35px;
-    }
   }
 
   @media (max-width: 450px){
@@ -106,13 +102,7 @@
       margin-bottom: 40px;
     }
 
-    .films{
-      padding: 50px 0;
-    }
-
-    .footer_left{
-      gap: 25px;
-    }
+    
     
     .series_item:nth-of-type(1){
       height: 400px;
@@ -132,10 +122,6 @@
       flex-direction: column;
       text-align: center;
       gap: 15px;
-    }
-
-    .footer_left{
-      flex-direction: column;
     }
 
     .series_items{
