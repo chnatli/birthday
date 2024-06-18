@@ -1,0 +1,145 @@
+  @media (max-width: 1400px) {
+    .container{
+      max-width: 1140px;
+    }
+
+  }
+
+  @media (max-width: 1200px) {
+    .container{
+    max-width: 960px;
+    }
+
+    .video_bg{
+      padding: 60px;
+    }
+  }
+
+  @media (max-width: 992px){
+    .container{
+        max-width: 720px;
+      }
+        .header_titles{
+        margin-top: 100px;
+        }
+        
+        .series_item-text{
+          margin: 20px 0;
+        }
+
+        .video_bg{
+          padding: 45px;
+        }
+        .wish_text{
+          margin-bottom: 25px;
+        }
+  }
+
+  @media (max-width: 768px){
+    .container{
+        max-width: 540px;
+       }
+
+        .list{
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+           }
+           .nav_bg.active{
+            display: none;
+           }
+
+           .series_item:nth-of-type(3){
+            grid-column: 3/5;
+           }
+           .series_item:nth-of-type(4){
+            grid-column: 3/5;
+           }
+           .series_item:nth-of-type(5){
+            grid-column: 1/3;
+           }
+           .series_item:nth-of-type(6){
+            grid-column: 3/5;
+           }
+
+           .video_bg{
+            padding: 10px 20px;
+           }
+  }
+
+  @media (max-width: 576px){
+    .container{
+      max-width: 100%;
+    }
+
+    .header_text{
+      margin: 20px 0;
+    }
+
+    .bg_btn{
+      padding: 15px 40px;
+    }
+
+    .footer_left{
+      gap: 35px;
+    }
+  }
+
+  @media (max-width: 450px){
+    .nav_img{
+      width: 80px;
+      height: 30px;
+      margin-top: 7px;
+    }
+
+    .header_bg{
+      height: 400px;
+    }
+    .header_text{
+      line-height: 20px;
+    }
+
+    .trailer_video{
+      height: 300px;
+    }
+
+    .main_title{
+      margin-bottom: 40px;
+    }
+
+    .films{
+      padding: 50px 0;
+    }
+
+    .footer_left{
+      gap: 25px;
+    }
+    
+    .series_item:nth-of-type(1){
+      height: 400px;
+    }
+
+    .video_bg{
+      padding: 10px 15px;
+    }
+    .wish_text{
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 400px){
+    .bg_btns{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+
+    .footer_left{
+      flex-direction: column;
+    }
+
+    .series_items{
+      display: flex;
+      flex-direction: column;
+    }
+  }
